@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:orientation="vertical"
+    android:background="@drawable/android_img"
+    android:gravity="bottom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Farhan islam"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#B1B0B0"
+        android:gravity="center_horizontal"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_margin="40dp"
+        android:progressTint="#63881D"
+        android:progressBackgroundTint="#fff" />
+
+</LinearLayout>
